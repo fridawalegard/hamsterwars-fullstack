@@ -1,3 +1,6 @@
+Gjort G-krav och försök på VG, inte hunnit göra klart allt.
+Vet ungefär vad jag behöver göra, men får bli sommarprojekt.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
