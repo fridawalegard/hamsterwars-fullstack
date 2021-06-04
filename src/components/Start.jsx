@@ -15,6 +15,7 @@ function Start(){
                 Or look around in the gallery. Maybe upload your own hamster, becuse that's the cutest one. Am I right?
                 </p>
             </div>
+            
             <p className="may-the-cutest">
                 May the cutest hamster win!
             </p>

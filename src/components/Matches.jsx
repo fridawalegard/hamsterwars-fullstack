@@ -18,8 +18,6 @@ return (
                     <p>Match: </p>
                     <p> Winner: {hamsters.name}</p>
                     <p> Loser: {match.loserId}</p>
-                    {/* <img alt="stathamster" src="/hamster-2.jpg"></img> */}
-                    
                 </div>
             ))
             : 'Hämtar hamstrar från API...'

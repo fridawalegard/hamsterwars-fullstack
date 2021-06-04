@@ -16,7 +16,6 @@
 .heading{
     position: absolute;
     margin-top: 9em;
-    /* margin-left: 400px; */
     height: 4.5em;
     width: 42em;
     background-color: rgba(158, 255, 226, 1);
@@ -36,7 +35,7 @@
   a:link {
     text-decoration: none;
   } 
-  
+
   nav{
     margin-top: -2em;
     transform: skew(30deg);

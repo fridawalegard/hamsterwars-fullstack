@@ -29,34 +29,28 @@ function App() {
     async function get() {
       const response = await fetch('/hamsters', { method: 'GET' })
       const data = await response.json()
-      // Använd "mountedRef" här
-      setHamsters(data)      // OBS! Bättre att hämta datan i App-komponenten, eftersom den alltid är MOUNTED
+      setHamsters(data)    
   }
   
     async function getWinners() {
       const response = await fetch('/winners', { method: 'GET' })
       const data = await response.json()
-      // Använd "mountedRef" här
       setWinners(data)
-      // OBS! Bättre att hämta datan i App-komponenten, eftersom den alltid är MOUNTED
+      
     }
 
 
     async function getLosers() {
       const response = await fetch('/losers', { method: 'GET' })
       const data = await response.json()
-      // Använd "mountedRef" här
       setLosers(data)
-      // OBS! Bättre att hämta datan i App-komponenten, eftersom den alltid är MOUNTED
     }
 
 
     async function getMatches() {
       const response = await fetch('/matches', { method: 'GET' })
       const data = await response.json()
-      // Använd "mountedRef" här
       setMatches(data)
-      // OBS! Bättre att hämta datan i App-komponenten, eftersom den alltid är MOUNTED
     }
 
 
@@ -75,7 +69,7 @@ function App() {
             <div className="heading">
             
            <NavLink to="/"> <p className="heading-text"> HAMSTERWARS</p> </NavLink>
-            {/* <p>Which hamster will reign supreme in the cuteness competition? You decide by choosing your favourite in each battle. Explore the statistics and see if you agree with the leader and loser boards. If you feel your hamster should take part in the action, then you can upload its credentials to our database</p> */}
+      
 
                 <nav className="navbar">
                   

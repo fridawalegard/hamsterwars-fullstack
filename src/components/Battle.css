@@ -1,7 +1,5 @@
 .hamster-block{
     width:100%;
-    /* display: flex;
-    justify-content: center; */
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: 270px 270px;
