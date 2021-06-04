@@ -1,0 +1,36 @@
+.top-five{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 2em;
+}
+
+h2{
+    font-family: Pacifico;
+}
+
+.hamster-container{
+    width: 14em;
+    background-color: white;
+    margin:0.5em;
+    padding:0.5em;
+    display:flex;
+    flex-direction: column;
+}
+
+.hamster-container .hamster-name{
+    margin-top: -2em;
+    width: 80%;
+    font-family: Pacifico;
+}
+
+.hamsters-results{
+    margin-top: 3em;
+    font-family: Oswald;
+}
+
+
+.top-five-winners .hamster-img{
+    width: 12vw;
+    justify-items: center;
+}

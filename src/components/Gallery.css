@@ -1,0 +1,209 @@
+.hamster-gallery{
+    display:grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-gap: 50px 10px;
+    margin-top:3em;
+    margin-bottom: 5em;
+}
+
+
+.container {
+    margin: auto;
+    padding: 1em;
+    background-color: white;
+}
+
+.container .hamster-img{
+    width: 200px;
+}
+
+.add-hamster{
+    width:10em;
+    height: 2em;
+    border: solid 0.2em;
+    border-radius: 20em;
+    border-color: rgba(255, 210, 49, 1);
+    font-family: 'Pacifico';
+    font-size: 1.2em;
+    background-color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 2em 1.5em 3em auto;
+
+}
+
+.hamster-name{
+    font-family: Pacifico;
+}
+
+.show-section{
+    width:70vw;
+    margin:auto;
+    padding: 2em;
+}
+
+.delete-btn{
+    border-radius: 100px;
+    font-family: 'Pacifico';
+    font-size: 1.5em;
+    background-color: white;
+    align-self: center;
+    background-color: coral;
+    margin: 1em;
+    color: white;
+    border-color:coral;
+    border:solid 0.15em;
+    padding: 0.1em 0.4em;
+    
+}
+
+.close-btn{
+    width: 5em;
+    border:solid 0.15em;
+    border-radius: 100px;
+    border-color: rgba(255, 210, 49, 1);
+    font-family: 'Pacifico';
+    font-size: 1.5em;
+    background-color: white;
+    align-self: center;
+    margin: 1em;
+    padding: 0.1em 0.4em;
+    
+
+}
+
+.show-hamster-container{
+    width:30vw;
+    background-color: white;
+    margin: 2em auto 2em auto;
+    border: dotted 0.3em;
+    border-color: rgba(238, 248, 255, 1);;
+}
+
+.show-hamster{
+    font-family: Oswald;
+    text-align: left;
+    margin:auto;
+    border: solid 0.02em;
+    border-color: black;
+    width:15vw;
+    padding:1.2em;
+    margin-bottom: 2em;
+    line-height: 2em;
+}
+
+.show-hamster-container h2{
+    text-align: center;
+    font-family: Pacifico;
+}
+
+.show-img{
+    justify-content: center;
+    margin-top: 2em;
+    width: 15vw;
+}
+
+.delete-message{
+    font-family: Oswald;
+    width: 21vw;
+    border:solid 0.1em;
+    border-color: black;
+    position: absolute;
+    margin-left:21.3em;
+    margin-top:-23.5em;
+    /* background-color: rgb(255, 238, 247); */
+    background-color: rgb(238, 248, 255, 1);
+    padding:4.5em 2em 5em 2em;
+    box-shadow: 0.1em 0.1em 0.1em;
+}
+
+.yes-btn{
+    height: 4em;
+    width: 5em;
+    font-size: 1em;
+    margin: 2em 0.5em 0.5em 0.5em;
+    border:solid 0.15em;
+    border-color:rgb(255, 238, 247);
+    border-radius: 50em;
+    background-color: white;
+    font-family: 'Pacifico';
+
+}
+
+.no-btn{
+    height: 4em;
+    width: 5em;
+    font-size: 1em;
+    margin: 2em 0.5em 0.5em 0.5em;
+    border:solid 0.15em;
+    border-radius: 50em;
+    background-color: white;
+    font-family: 'Pacifico';
+    border-color:rgba(158, 255, 226, 1);;
+    
+    
+}
+
+
+.formular{
+    width:25vw;
+    padding:2em;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin:auto;
+    border:dotted 0.3em;
+    border-radius: 1.5em;
+    border-color: white;
+   
+}
+
+.form-heading{
+    font-family: Pacifico;
+}
+
+label{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input{
+    width: 25vw;
+    margin: 0.5em;
+    height: 2em;
+    border-radius: 10px;
+    border: lightgray;
+    align-items: center;
+}
+
+.add-to-database{
+    width: 10em;
+    justify-content: center;
+    border: solid 5px;
+    border-radius: 100px;
+    border-color: rgba(255, 210, 49, 1);
+    font-family: 'Pacifico';
+    font-size: 1.5em;
+    background-color: white;
+    align-self: center;
+
+}
+
+.button-div button{
+    width:150px;
+    height: 65px;
+    border: solid 5px;
+    border-radius: 100px;
+    border-color: rgba(255, 210, 49, 1);
+    font-family: 'Pacifico';
+    font-size: 30px;
+    background-color: white;
+    align-self: flex-end;
+    justify-self: flex-start;
+}

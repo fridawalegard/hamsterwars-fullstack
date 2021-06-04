@@ -1,0 +1,41 @@
+
+
+.formular{
+    width:25vw;
+    padding:2em;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin:auto;
+    border:dotted 0.3em;
+    border-radius: 1.5em;
+    border-color: white;
+   
+}
+
+.form-heading{
+    font-family: Pacifico;
+}
+
+label{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input{
+    width: 25vw;
+    margin: 0.5em;
+    height: 2em;
+    border-radius: 10px;
+    border: lightgray;
+    align-items: center;
+}
+
+.add-to-database{
+    width: 10em;
+    margin: 1.5em;
+    justify-content: center;
+}

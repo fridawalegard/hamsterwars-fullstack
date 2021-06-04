@@ -1,0 +1,67 @@
+.header{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.cloud{
+    display: flex;
+    position: relative;
+    margin-right: auto;
+    margin-left: 7em;
+    margin-top: 5em;
+    
+  }
+
+.heading{
+    position: absolute;
+    margin-top: 9em;
+    /* margin-left: 400px; */
+    height: 4.5em;
+    width: 42em;
+    background-color: rgba(158, 255, 226, 1);
+    transform: skew(-30deg);
+
+  
+  }
+  .heading .heading-text{
+    font-family: 'pacifico', cursive;
+    transform: skew(30deg);
+    font-size: 4.5em;
+    margin:-25px 0px 0px;
+    color:white;
+  }
+
+
+  a:link {
+    text-decoration: none;
+  } 
+  
+  nav{
+    margin-top: -2em;
+    transform: skew(30deg);
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  nav a{
+    font-family: Pacifico;
+   background-color: rgba(255, 217, 238, 1);
+   margin:0.5em;
+   border-radius: 10em;
+   padding: 0.5em 2em;
+   text-decoration: none;
+   color: black;
+  }
+
+  nav a:hover {
+    background-color: rgba(158, 255, 226, 1);
+}
+
+  nav a.active {
+    font-weight: bold;
+}
+
+
+  
+
