@@ -9,6 +9,19 @@
 
 }
 
+.start{
+  width: 20vw;
+  margin: auto;
+  padding: 2em;
+  font-family: Oswald;
+}
+
+.may-the-cutest{
+  font-family: Pacifico;
+  font-size: 2em;
+  margin-top: 0px;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

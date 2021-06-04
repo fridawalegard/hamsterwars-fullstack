@@ -17,7 +17,7 @@ function Battle() {
     
 
     const [winner, setWinner] = useState({});
-    const [loser, setLoser] = useState({})
+    // const [loser, setLoser] = useState({})
 
     useEffect(() => {
 
@@ -84,7 +84,7 @@ function Battle() {
         
             {hamster1.id && hamster2.id             
 
-            ? <><section className="left-hamster" onClick={() => {BattleWinner(hamster1, hamster2); setShowResult(!showResult); setWinner(hamster1); setLoser(hamster2)}} >
+            ? <><section className="left-hamster" onClick={() => {BattleWinner(hamster1, hamster2); setShowResult(!showResult); setWinner(hamster1)}} >
                    {winner.id ===hamster1.id ? <img src={crown} className="left-crown" alt="crown" /> : null}
                     
                      <img className="hamster-img" alt="Hamster" src={`/${hamster1.imgName}`}></img>
@@ -110,7 +110,7 @@ function Battle() {
 
             <p className="vs">VS</p>
 
-            <section className="right-hamster" onClick={() => {BattleWinner(hamster2, hamster1); setShowResult(!showResult); setWinner(hamster2); setLoser(hamster1)} }>
+            <section className="right-hamster" onClick={() => {BattleWinner(hamster2, hamster1); setShowResult(!showResult); setWinner(hamster2)}}>
             {winner.id ===hamster2.id ? <img src={crown} className="right-crown" alt="crown" /> : null}
                 <img className="hamster-img" alt="Hamster" src={`/${hamster2.imgName}`}></img>
                 <div className="hamster-name">

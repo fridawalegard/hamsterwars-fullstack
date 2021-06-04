@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Link, Switch, Route, NavLink } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route, NavLink } from 'react-router-dom'
 import './App.css';
 import './components/Header.css';
 import cloud from './cloud.png'
 import Gallery from './components/Gallery'
 import Battle from './components/Battle'
-import AddHamster from './components/AddHamster'
 import TopFive from './components/TopFive'
 // import Matches from './components/Matches'
 import Start from "./components/Start";

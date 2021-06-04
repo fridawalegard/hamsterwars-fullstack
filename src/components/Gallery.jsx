@@ -31,7 +31,7 @@ function GetHamsters({hamsters}) {
 	const [showHamster, setShowHamster] = useState({})
 	const [ifDelete, setAskDelete] = useState(false)
 
-	console.log(showHamster);
+	
 
 	const [name, setName] = useState('');
     const [nameError, setNameError] = useState('')
@@ -252,30 +252,6 @@ else {
 }
 
 
-
-		// function askDelete() {
-
-		// 		<div className="info-footer">
-		// 			<p>Vill du radera hamstern?</p>
-		// 			<button className="basic-btn" onClick={deleteHamster}>RADERA</button>
-		// 			<button className="secondary-btn" onClick={dontDelete}>AVBRYT</button>
-		// 		</div>
-		// }
-
-		// async function deleteHamster() {
-		// 	await fetch(`/hamsters/${showHamster.id}`, {method: 'DELETE'});
-		// 	// setUpdateHamsters(!updateHamsters);
-		// 	// buttonFunction();
-		// }
-		// function dontDelete() {
-		// 		<div className="info-footer">
-		// 			<button></button>
-		// 			{/* <button className="basic-btn" onClick={buttonFunction}>{buttonText}</button> */}
-		// 			{/* {showDelete ? 
-		// 				<button className="delete-btn" onClick={askDelete}>Radera hamster?</button>
-		// 			: null }	 */}
-		// 		</div>
-		// }
 }
 
 
